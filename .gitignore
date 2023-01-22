@@ -1,8 +1,2 @@
 node_modules
-__pycache__
-input
-trait-layers
-trait-layers-raw
-.env
-.keys
 dist

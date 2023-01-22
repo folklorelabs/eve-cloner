@@ -145,9 +145,8 @@ async function getConfigOptions() {
     ]);
     if (configInput.useConfig) {
       return config;
-    } else {
-      return false;
     }
+    return false;
   }
   return null;
 }
