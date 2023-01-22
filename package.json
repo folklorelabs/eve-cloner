@@ -1,6 +1,6 @@
 {
   "name": "eve-settings-cloner",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Command line too to clone your EVE char and user settings to characters across all of your accounts.",
   "engines": {
     "node": "16.14.0"
