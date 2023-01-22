@@ -2,6 +2,7 @@
 
 Clone your EVE settings across accounts and characters. This tool is a script that executes the old ["manually copy and paste your files" strategy](https://forums.eveonline.com/t/manually-copy-settings-between-characters-and-accounts/32704).
 
+![image](https://user-images.githubusercontent.com/98740773/213911835-370d0a4f-d574-45ee-92bc-6ba56ee3027c.png)
 
 ### Running the app
 
