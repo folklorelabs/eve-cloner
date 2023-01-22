@@ -1,0 +1,10 @@
+{
+  "env": {
+    "node": true
+  },
+  "extends": ["airbnb", "airbnb/hooks"],
+  "rules": {
+    "no-restricted-syntax": "off",
+    "no-await-in-loop": "off"
+  }
+}

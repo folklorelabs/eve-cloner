@@ -1,0 +1,38 @@
+{
+  "name": "eve-settings-cloner",
+  "version": "1.0.3",
+  "description": "Command line too to clone your EVE char and user settings to characters across all of your accounts.",
+  "engines": {
+    "node": "16.14.0"
+  },
+  "engineStrict": true,
+  "scripts": {
+    "start": "eve-settings-cloner",
+    "build": "pkg ."
+  },
+  "bin": "./src/index.js",
+  "pkg": {
+    "targets": [
+      "node16-macos",
+      "node16-win"
+    ],
+    "scripts": "src/**/*.js",
+    "outputPath": "dist"
+  },
+  "author": "Folklore Labs",
+  "license": "ISC",
+  "dependencies": {
+    "command-line-args": "^5.2.1",
+    "inquirer": "^8.2.1",
+    "yargs": "^17.6.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.8.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "pkg": "^5.8.0"
+  }
+}
