@@ -6,7 +6,7 @@ Clone your EVE settings across accounts and characters. This tool is a script th
 ### Running the app
 
 Running the app will open a terminal and walk you through each step. The script will always back up your setting files and print out the backup location in case you need to revert.
-#### [Download the latest release](https://github.com/folklorelabs/eve-settings-cloner/releases)
+#### [Download the latest release](https://github.com/folklorelabs/eve-settings-cloner/releases/latest)
 
 
 ### Working with the binaries
