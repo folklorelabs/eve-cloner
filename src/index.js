@@ -9,7 +9,7 @@ const copyRecursiveSync = require('./utils/copyRecursiveSync');
 const getFileListingRecursiveSync = require('./utils/getFileListingRecursiveSync');
 const getUserPaths = require('./utils/getUserPaths');
 
-const CONFIG_PATH = path.join(process.cwd(), 'eve-settings-cloner-config.json');
+const CONFIG_PATH = path.join(process.cwd(), 'eve-cloner-config.json');
 const SETTING_FILE_REGEXP = /core_(user|char)_(\d+).dat$/;
 const STATE = {
   root: '',
@@ -250,7 +250,7 @@ function anykey() {
 
 (async () => {
   const cliOptions = getCliOptions();
-  console.log('\nEVE SETTINGS CLONER - Clone your main character\'s EVE settings.\n');
+  console.log('\nEVE CLONER - Clone your EVE settings across accounts and characters.\n');
   console.log('We won\'t modify anything until we\'ve finished asking questions.\n');
   const configOptions = await getConfigOptions();
   const userOptions = configOptions || await getUserOptions(cliOptions);
